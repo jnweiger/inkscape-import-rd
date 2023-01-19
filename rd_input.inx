@@ -4,7 +4,6 @@
     <id>org.inkscape.jnweiger.rd_input</id>
     <input>
         <extension>.rd</extension>
-        <extension>.ruida</extension>
         <mimetype>image/x-rd</mimetype>
         <filetypename>Ruida Laser File (*.rd)</filetypename>
         <filetypetooltip>Open files saved with rdworks</filetypetooltip>
