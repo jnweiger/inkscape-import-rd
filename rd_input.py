@@ -30,7 +30,7 @@ class RdInput(inkex.InputExtension):
     def load(self, stream):
         r = RuidaParser()
         r.decode(r.unscramble_bytes(stream.read()))
-        return r.to_svg())
+        return r.to_svg(stroke_width=0.2))
 
 if __name__ == "__main__":
     RdInput().run()
